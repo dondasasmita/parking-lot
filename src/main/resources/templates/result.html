@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Available Parking Lots</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1 th:text="'Car Park ID : ' + ${availableLots.carParkID}" />
+<h1 th:text="'Area : ' + ${availableLots.area}" />
+<h1 th:text="'Name of Development: ' + ${availableLots.development}" />
+<h1 th:text="'Number of Available Lots: ' + ${availableLots.availableLots}" />
+<h1 th:text="'Lot Type: ' + ${availableLots.lotType}" />
+</body>
+</html>

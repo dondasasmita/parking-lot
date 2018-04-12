@@ -1,0 +1,6 @@
+.DS_Store
+.iml
+.idea
+application.properties
+README.html
+target/
